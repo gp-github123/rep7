@@ -22,4 +22,7 @@ object _WordCountClass {
   def add3: Unit ={
     println("本地修改2")
   }
+  def add4(): Unit ={
+    println("clone到远端")
+  }
 }
