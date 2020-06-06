@@ -12,4 +12,7 @@ object _WordCountClass {
       .reduceByKey(_+_)
       .foreach(println(_))
   }
+  def add: Unit ={
+    println("本地修改")
+  }
 }
