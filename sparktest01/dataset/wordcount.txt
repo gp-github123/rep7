@@ -1,5 +1,3 @@
-flume hadoop spark java scala
-flume hadoop spark
-spark java scala
-flume hadoop sparkspark java scala
-flume hadoop sparks
+hadoop spark flume
+hadoop sqoop
+spark hello
