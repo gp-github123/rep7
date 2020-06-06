@@ -11,8 +11,15 @@ object _WordCountClass {
       .map((_,1))
       .reduceByKey(_+_)
       .foreach(println(_))
+    add
   }
   def add: Unit ={
     println("本地修改")
+  }
+  def add1: Unit ={
+    println("本地修改2")
+  }
+  def add3: Unit ={
+    println("本地修改2")
   }
 }
